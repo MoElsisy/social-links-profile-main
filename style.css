@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 25rem;
+  height: 90%;
+  text-align: center;
+  padding: 1.875rem 0.9375rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.8335rem;
+  overflow: hidden;
+}
+
+.content img {
+  width: 6.25rem;
+  border-radius: 50%;
+  margin-bottom: 1.5625rem;
+}
+
+.content h2 {
+  margin-bottom: 5px;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.content h2 + p {
+  margin-bottom: 20px;
+  color: hsla(75, 94%, 57%, 0.877);
+  font-weight: 500;
+}
+
+.content h2 + p + p {
+  color: hsla(0, 0%, 100%, 0.788);
+}
+
+.social ul {
+  margin-top: 1.625rem;
+}
+
+.social ul li {
+  background-color: hsl(0, 0%, 20%);
+  list-style: none;
+  margin: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: 0.5s ease-in;
+}
+
+.social ul li:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: rgb(2, 2, 2);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* Small */
+@media (max-width: 1024px) {
+  .container {
+    width: 600px;
+    height:auto;
+  }
+}
