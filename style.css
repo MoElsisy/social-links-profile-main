@@ -20,7 +20,7 @@ body {
 .container {
   background-color: hsl(0, 0%, 12%);
   width: 25rem;
-  height: 90%;
+  height: auto;
   text-align: center;
   padding: 1.875rem 0.9375rem;
   color: hsl(0, 0%, 100%);
